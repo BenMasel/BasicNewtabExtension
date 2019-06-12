@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple Newtab",
+  "short_name": "Newtab",
+  "description": "Newtab Basic Code For New Developers",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab": "code/index.html"
+  },
+  "icons": {
+    "128": "img/qm.png"
+  },
+  "browser_action": {
+    "default_icon": "img/qm.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'"
+}
